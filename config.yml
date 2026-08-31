@@ -15,6 +15,9 @@ menu:
         - name: Teaching
           url: courses/
           weight: 3
+        - name: Contact
+          url: location/
+          weight: 4
 params:
     description: "This website hosts Kevin Souchard's research, teaching materials, and contact information."
     author: Kevin Souchard
@@ -51,15 +54,19 @@ params:
               url: papers/
             - name: Teaching
               url: courses/
+            - name: Contact
+              url: location/
     socialIcons:
         - name: Email
           url: mailto:kevin.souchard@u-bordeaux.fr
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=REMPLACE_MOI
         - name: LinkedIn
           url: https://fr.linkedin.com/in/kevin-souchard-b10080107
+        - name: ORCID
+          url: https://orcid.org/REMPLACE_MOI
         - name: GitHub
           url: https://github.com/kevin-souchard
-        - name: Location
-          url: location/
     assets:
         disableScrollBarStyle: true
     cover:
