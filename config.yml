@@ -45,8 +45,7 @@ params:
     profileMode:
           enabled: true
           title: Kevin Souchard
-          subtitle: "I am a PhD student in my **fourth and final year** at the **[Bordeaux School of Economics](https://www.bse.u-bordeaux.fr/)**, under the supervision of Maïder Saint Jean and Ernest Miguelez. 👾\n\nMy research lies at the intersection of the **economics of innovation**, **economic geography**, and **environmental economics**, with a particular focus on technological complexity, technology diffusion, regional capabilities, and environmental policy."
-          imageUrl: picture.jpeg
+          subtitle: "I am a PhD student in my **fourth and final year** at the **[Bordeaux School of Economics](https://www.bse.u-bordeaux.fr/)**, under the supervision of Maïder Saint Jean and Ernest Miguelez.\n\nMy research lies at the intersection of the **economics of innovation**, **economic geography**, and **environmental economics**, with a particular focus on technological complexity, technology diffusion, regional capabilities, and environmental policy."          imageUrl: picture.jpeg
           imageWidth: 240
           imageHeight: 240
           buttons:
