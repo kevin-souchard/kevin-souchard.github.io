@@ -1,36 +1,23 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://kevin-souchard.github.io/"
+title: Kevin Souchard
 theme: PaperMod
-
 enableInlineShortcodes: true
 enableRobotsTXT: true
 pagination:
   pagerSize: 20
-
 taxonomies:
     tag: tags
-
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
+        - name: Research
           url: papers/
           weight: 2
-        - name: Courses
+        - name: Teaching
           url: courses/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
-
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "This website hosts Kevin Souchard's research, teaching materials, and contact information."
+    author: Kevin Souchard
     # googleAnalyticsID: G-XXXXX
     DateFormat: January 2006
     defaultTheme: light
@@ -44,7 +31,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: [books, courses, papers, data]
+    MainSections: [courses, papers]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -54,68 +41,41 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          title: Kevin Souchard
+          subtitle: "I am a PhD student at the [Bordeaux School of Economics](https://www.bse.u-bordeaux.fr/) under the supervision of Maïder Saint Jean and Ernest Miguelez. My research lies at the intersection of the economics of innovation, economic geography, and environmental economics, with a particular focus on technological complexity, technology diffusion, regional capabilities, and environmental policy."
           imageUrl: picture.jpeg
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
+            - name: Research
               url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
+            - name: Teaching
               url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-
     socialIcons:
-        - name: CV
-          url: cv.pdf
         - name: Email
-          url: mailto:user@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/user
+          url: mailto:kevin.souchard@u-bordeaux.fr
+        - name: LinkedIn
+          url: https://fr.linkedin.com/in/kevin-souchard-b10080107
+        - name: GitHub
+          url: https://github.com/kevin-souchard
         - name: Location
           url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=user
-        - name: GitHub
-          url: https://github.com/user
-        - name: YouTube
-          url: https://www.youtube.com/@user
-        - name: Substack
-          url: https://user.substack.com
-        - name: Twitter
-          url: https://x.com/user
-        - name: Bluesky
-          url: https://bsky.app/profile/user.bsky.social
-
     assets:
         disableScrollBarStyle: true
     cover:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: Moritz-Maria von Igelfeld
+      text: Kevin Souchard
       icon: favicon.ico
       iconHeight: 18
-
 markup:
     goldmark:
         renderer:
             unsafe: true
     highlight:
         guessSyntax: true
-        style: autumn 
+        style: autumn
     tableOfContents:
         endLevel: 2
         ordered: false
