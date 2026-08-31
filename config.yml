@@ -16,12 +16,11 @@ menu:
           url: courses/
           weight: 3
 params:
-    _noindex: true
     description: "This website hosts Kevin Souchard's research, teaching materials, and contact information."
     author: Kevin Souchard
     # googleAnalyticsID: G-XXXXX
     DateFormat: January 2006
-    defaultTheme: light
+    defaultTheme: dark
     hideFooter: false
     disableThemeToggle: true
     ShowShareButtons: false
